@@ -16,4 +16,5 @@ realize simple C++ solution
 
 #### 16/12/2020
 
+345. Reverse Vowels of a String
 
