@@ -19,7 +19,7 @@ realize simple C++ solution
 345. Reverse Vowels of a String
 
 
-### 18/12/2020
+#### 18/12/2020
 
 
 Create 1323. Maximum 69 Number.cpp
