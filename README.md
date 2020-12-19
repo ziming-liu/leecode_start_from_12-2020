@@ -23,3 +23,8 @@ realize simple C++ solution
 
 
 Create 1323. Maximum 69 Number.cpp
+
+
+#### 19/12/2020
+
+771. Jewels and Stones.cpp
