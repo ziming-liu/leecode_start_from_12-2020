@@ -28,3 +28,8 @@ Create 1323. Maximum 69 Number.cpp
 #### 19/12/2020
 
 771. Jewels and Stones.cpp
+
+
+#### 21/12/2020
+
+503. Next Greater Element II
