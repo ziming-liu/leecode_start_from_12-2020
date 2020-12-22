@@ -97,3 +97,22 @@ public:
         
     }
 };
+
+
+// python
+
+class Solution {
+public:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        tempStr = ''
+        maxLen = 0
+        for char in s:
+            if char not in tempStr:
+                tempStr += char
+                maxLen = max(maxLen, len(tempStr))
+            else:
+                tempStr = '' + tempStr[tempStr.index(char)+1:] + char
+        return maxLen
+};
+
+
