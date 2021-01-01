@@ -54,5 +54,11 @@ Create 1323. Maximum 69 Number.cpp
 13. Roman to Integer
 
 
+#### 1/1/2021
+
+125. Valid Palindrome
+387. First Unique Character in a String
+
+
 
 
