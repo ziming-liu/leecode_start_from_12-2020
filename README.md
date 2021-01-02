@@ -60,5 +60,19 @@ Create 1323. Maximum 69 Number.cpp
 387. First Unique Character in a String
 
 
+#### 2/1/2021
+
+28. Implement strStr()
+实际是字符sub string匹配问题，返回index。
+注意 开头 特例情况
+
+20. Valid Parentheses
+Input: s = "()[]{}"
+Output: true
+
+使用stack容器，左符号存入stack，右符号时，判断，stack中有左符号 相消， 否则 返回false（不对称，失败）
+
+
+
 
 
