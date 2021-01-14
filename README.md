@@ -84,4 +84,12 @@ Output: true
 283. Move Zeroes
 
 
+## Array problems
+
+##### 14/1/2021
+
+217. Contains Duplicate.cpp
+mapping解决
+
+
 
