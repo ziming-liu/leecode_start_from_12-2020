@@ -1,3 +1,4 @@
+```
 541. Reverse String II
 Easy
 
@@ -15,10 +16,11 @@ Output: "bacdfeg"
 Restrictions:
 The string consists of lower English letters only.
 Length of the given string and k will in the range [1, 10000]
-
+```
 
 思路：
-
+```
 先写一个基本的reverse string 函数
 
 从0- len(s)，每2k个位置反转一次 k个长度的子串。
+```

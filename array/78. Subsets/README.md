@@ -1,3 +1,4 @@
+```
 78. Subsets
 Medium
 
@@ -33,23 +34,30 @@ Accepted
 719,209
 Submissions
 1,107,065
+```
+
 
 ### 思路
-solution1 
+##### solution1 
 
 以 subset的长度 为level层级， 使用递归， 递归的每一层 都是一个for循环遍历N种情况，N种情况即 数组nums中的N个元素分别添加到上一level数组的尾部。
-
+```
 for example,  [1,2,3]
 level 0                              []
-                       /              \               \
+                       /            \               \
+
 level 1         [1]                    [2]            [3]
+
                /   \                  /               /
+
 level 2    [1,2]  [1,3]            [2,3]            
+
            /
+
 level 3 [1,2,3]    
 
-
-solution2
+```
+###### solution2
 
 初始化 result数组  $[[]]$
 
@@ -58,17 +66,24 @@ solution2
 - 对每轮循环， 都copy一次当前result中的每个subset， 对于每个copy的新subset都添加 原始数组nums的第 i 个元素。 
 
 每轮循环 都得到了一个新的result，（依次往每个subset尾部 ++ 第i个元素）
-
+```
 for example 
+
 [1,2,3]
+
 init  [[]]
+
 +1  [[], copy([]).append(1)]
+
 +2 [[], [1], copy([]).append(2), copy([1]).append(2) ]
+
 +3 [[], [1], [2], [1,2] copy([]).append(3), copy([1]).append(3), copy([2]).append(3), copy([1,2]).append(3),]
 
+```
 ### submit 
 
 ##### solution 1
+```
 Details 
 Runtime: 24 ms, faster than 98.87% of Python3 online submissions for Subsets.
 Memory Usage: 14.6 MB, less than 22.16% of Python3 online submissions for Subsets.
@@ -76,9 +91,10 @@ Next challenges:
 Subsets II
 Generalized Abbreviation
 Letter Case Permutation
-
+```
 
 ##### solutoin 2
+```
 Details 
 Runtime: 24 ms, faster than 98.87% of Python3 online submissions for Subsets.
 Memory Usage: 14.5 MB, less than 22.16% of Python3 online submissions for Subsets.
@@ -86,3 +102,4 @@ Next challenges:
 Subsets II
 Generalized Abbreviation
 Letter Case Permutation
+```

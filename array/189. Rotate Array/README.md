@@ -1,3 +1,4 @@
+```
 189. Rotate Array
 Medium
 
@@ -42,16 +43,18 @@ Accepted
 641,401
 Submissions
 1,755,421
-
+```
 
 ### 思路
 
 通过切片方式 成块 交换左边N-K个和右边K个element。
 
 ### submit
+```
 Details 
 Runtime: 52 ms, faster than 97.79% of Python3 online submissions for Rotate Array.
 Memory Usage: 15.4 MB, less than 86.75% of Python3 online submissions for Rotate Array.
 Next challenges:
 Rotate List
 Reverse Words in a String II
+```

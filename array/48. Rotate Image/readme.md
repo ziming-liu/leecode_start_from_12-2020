@@ -1,3 +1,4 @@
+```
 48. Rotate Image
 Medium
 
@@ -44,7 +45,7 @@ Accepted
 515,299
 Submissions
 866,101
-
+```
 
 # 思路
 
