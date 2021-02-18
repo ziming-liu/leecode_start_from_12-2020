@@ -1,3 +1,4 @@
+```
 8. String to Integer (atoi)
 Medium
 
@@ -99,23 +100,24 @@ Accepted
 689,009
 Submissions
 4,410,205
-
+```
 
 ### 思路
-
+```
 按照题目要求 分步骤判断即可。
 
 注意点： 
 - 不要超出索引
 - python的str不支持减法， 比如 s[i]-'0' is not supported
-
+```
 
 
 ### Submit
-
+```
 Details 
 Runtime: 32 ms, faster than 82.52% of Python3 online submissions for String to Integer (atoi).
 Memory Usage: 14.2 MB, less than 59.56% of Python3 online submissions for String to Integer (atoi).
 Next challenges:
 Reverse Integer
 Valid Number
+```
